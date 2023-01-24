@@ -1,0 +1,43 @@
+[
+    "view_users",
+    "create_users",
+    "edit_users",
+    "delete_users",
+
+    "view_events",
+    "create_events",
+    "edit_events",
+    "delete_events",
+
+    "view_alerts",
+    "create_alerts",
+    "edit_alerts",
+    "delete_alerts",
+
+    "view_tasks",
+    "create_tasks",
+    "edit_tasks",
+    "delete_tasks",
+
+    "view_institution_report",
+    "create_institution_report",
+    "edit_institution_report",
+    "delete_institution_report",
+    
+    "view_freeform_reports",
+    "create_freeform_reports",
+    "edit_freeform_reports",
+    "delete_freeform_reports",
+
+    "view_external_reports",
+    "create_external_reports",
+    "edit_external_reports",
+    "delete_external_reports",
+
+    "view_video_reports",
+    "create_video_reports",
+    "edit_video_reports",
+    "delete_video_reports",
+
+    "view_manager"
+  ]

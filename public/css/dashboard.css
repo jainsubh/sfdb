@@ -1,0 +1,44 @@
+#colorLegends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+#colorLegends div {
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+}
+
+#alert .alert-holder .marquee-parent {
+	background:#ffc600;
+	height:50px;
+	padding:10px 0;
+	position:relative;
+	-webkit-flex:1 1 auto;
+	flex:1 1 auto
+}
+#alert .alert-holder .marquee-child {
+	position:relative;
+	left:0%;
+	height:30px;
+	overflow:hidden;
+	cursor:pointer;
+        padding-left:20px;
+	color:red;
+	line-height:30px;
+	font-size:20px;
+	font-weight:500;
+
+}
+
+
+
+
+

@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">
+<link rel="stylesheet" href="{{asset('css/scrollbar.css')}}">
+<link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
+<link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
+<link rel="stylesheet" href="{{asset('css/simple-lightbox.css')}}">
+<link rel="stylesheet" href="{{asset('css/tavo-calendar.css')}}">
+<link rel="stylesheet" href="{{asset('css/flatpickr.css')}}">
+<link rel="stylesheet" href="{{asset('assets/styles/vendor/toastr.css')}}">
+<link rel="stylesheet" href="{{asset('assets/styles/vendor/sweetalert2.min.css')}}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">

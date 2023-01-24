@@ -1,0 +1,44 @@
+//flexbox
+@mixin display-flex { display: -webkit-flex; display: flex; }
+@mixin flex($values) { -webkit-flex: $values; flex: $values; }
+@mixin flex-direction($direction) { -webkit-flex-direction: $direction; flex-direction: $direction; }
+@mixin flex-wrap($wrap) { -webkit-flex-wrap: $wrap; flex-wrap: $wrap; }
+@mixin flex-flow($flow) { -webkit-flex-flow: $flow; flex-flow: $flow; }
+@mixin order($val) { -webkit-order: $val; order: $val; }
+@mixin flex-grow($grow) { -webkit-flex-grow: $grow; flex-grow: $grow; }
+@mixin flex-shrink($shrink) { -webkit-flex-shrink: $shrink; flex-shrink: $shrink; }
+@mixin flex-basis($width) { -webkit-flex-basis: $width; flex-basis: $width; }
+@mixin justify-content($justify) { -webkit-justify-content: $justify; justify-content: $justify; }
+@mixin align-content($align) { -webkit-align-content: $align; align-content: $align; }
+@mixin align-items($align) { -webkit-align-items: $align; align-items: $align; }
+@mixin align-self($align) { -webkit-align-self: $align; align-self: $align; }
+//transitions
+@mixin trans-height { -moz-transition: height 0.5s ease; -o-transition: height 0.5s ease; -webkit-transition: height 0.5s ease; transition: height 0.5s ease; }
+@mixin trans-width { -moz-transition: width 0.5s ease; -o-transition: width 0.5s ease; -webkit-transition: width 0.5s ease; transition: width 0.5s ease; }
+@mixin trans-lineheight { -moz-transition: line-height 0.5s ease; -o-transition: line-height 0.5s ease; -webkit-transition: line-height 0.5s ease; transition: line-height 0.5s ease; }
+@mixin trans-top { -moz-transition: top 0.5s; -o-transition: top 0.5s; -webkit-transition: top 0.5s; transition: top 0.5s; }
+@mixin trans-bottom { -moz-transition: bottom 0.5s; -o-transition: bottom 0.5s; -webkit-transition: bottom 0.5s; transition: bottom 0.5s; }
+@mixin trans-margin { -moz-transition: margin 0.5s; -o-transition: margin 0.5s; -webkit-transition: margin 0.5s; transition: margin 0.5s; }
+@mixin transform { -moz-transition: transform .2s; -o-transition: transform .2s; -webkit-transition: transform .2s; transition: transform .2s; }
+@mixin trans-all { transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; }
+//transform
+@mixin rotate { -webkit-transform: rotate(45deg) scale(1); -ms-transform: rotate(45deg) scale(1); transform: rotate(45deg) scale(1); }
+@mixin rotate2 { -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); }
+//shadow
+@mixin text-shadow { text-shadow: 0 0 13px rgba(188, 222, 242, 1); }
+@mixin shadow { -moz-box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.12); -webkit-box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.12); box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.12); }
+@mixin shadow2 { -moz-box-shadow: -4px 3px 10px 0 rgba(0, 0, 0, .09); -webkit-box-shadow: -4px 3px 10px 0 rgba(0, 0, 0, .09); box-shadow: -4px 3px 10px 0 rgba(0, 0, 0, .09); }
+@mixin shadow3 { -moz-box-shadow: -4px 2px 9px 0 rgba(0, 0, 0, .08); -webkit-box-shadow: -4px 2px 9px 0 rgba(0, 0, 0, .08); box-shadow: -4px 2px 9px 0 rgba(0, 0, 0, .08); }
+@mixin origin-c { -webkit-transform-origin: center; transform-origin: center; }
+@mixin origin-t { -webkit-transform-origin: top; transform-origin: top; }
+
+//others
+@mixin border-radius($radius) { -moz-border-radius: $radius; -webkit-border-radius: $radius; border-radius: $radius; }
+@mixin border-top-right-radius($radius) { -moz-border-top-right-radius: $radius; -webkit-border-top-right-radius: $radius; border-top-right-radius: $radius; }
+@mixin border-bottom-right-radius($radius) { -moz-border-bottom-right-radius: $radius; -webkit-border-bottom-right-radius: $radius; border-bottom-right-radius: $radius; }
+@mixin border-bottom-left-radius($radius) { -moz-border-bottom-left-radius: $radius; -webkit-border-bottom-left-radius: $radius; border-bottom-left-radius: $radius; }
+@mixin border-top-left-radius($radius) { -moz-border-top-left-radius: $radius; -webkit-border-top-left-radius: $radius; border-top-left-radius: $radius; }
+@mixin link {  a { color: $color2; 
+    &:hover { color: $color1; }
+  }
+}
